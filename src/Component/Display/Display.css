@@ -1,0 +1,40 @@
+.DisplayContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.DisplayContainer .div1{
+    width: 20%;
+    background-color: black;
+}
+
+.DisplayContainer .div2{
+    width: 80%;
+    background-color: rgb(26, 208, 244);
+    padding: 0vmax;
+    padding-top: 2vmax;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .DisplayContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+    }
+    
+    .DisplayContainer .div1{
+        width: 0%;
+        display: none;
+        height: 438px;
+    }
+    
+    .DisplayContainer .div2{
+        width: 100%;
+        background-color: rgb(26, 208, 244);
+        padding: 1vmax;
+    }   
+}

@@ -1,0 +1,134 @@
+.table{
+    width: 100%;
+    padding: 2vmax;
+    height: 450px;
+    background-color: rgb(26, 208, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tableHeading{
+    text-align: center;
+    width: 80%;
+}
+
+.tableHeading h1{
+    font: 400 2.5vmax sans-serif;
+    padding: 1vmax;
+}
+
+.tableContainer{
+    width: 50%;
+    padding-top: 2vmax;
+}
+
+.tableCard{
+    width: 100%;
+    border-radius: 15px;
+    background-color: black;
+    color: rgb(26, 208, 244);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tableCard div{
+    width: 60%;
+}
+
+.tableCard div:first-child{
+    width: 40%;
+}
+
+.tableCard div:first-child p:first-child{
+    border-top-left-radius: 15px;
+}
+
+.tableCard div:first-child p:last-child{
+    border-bottom-left-radius: 15px;
+}
+
+.tableCard div:last-child p:first-child{
+    border-top-right-radius: 15px;
+}
+
+.tableCard div:last-child p:last-child{
+    border-bottom-right-radius: 15px;
+}
+
+.tableCard div p{
+    padding: 1vmax;
+    border: 1px solid rgb(26, 208, 244);
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .table{
+        width: 100%;
+        padding: 0vmax;
+        padding-top: 8vmax;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .tableHeading{
+        text-align: center;
+        width: 80%;
+    }
+    
+    .tableHeading h1{
+        font: 400 4vmax sans-serif;
+        padding: 1vmax;
+    }
+    
+    .tableContainer{
+        width: 100%;
+        padding-top: 2vmax;
+        margin-bottom: 50px;
+    }
+    
+    .tableCard{
+        width: 100%;
+        border-radius: 15px;
+        background-color: black;
+        color: rgb(26, 208, 244);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .tableCard div{
+        width: 70%;
+    }
+    
+    .tableCard div:first-child{
+        width: 30%;
+    }
+    
+    .tableCard div:first-child p:first-child{
+        border-top-left-radius: 15px;
+    }
+    
+    .tableCard div:first-child p:last-child{
+        border-bottom-left-radius: 15px;
+    }
+    
+    .tableCard div:last-child p:first-child{
+        border-top-right-radius: 15px;
+    }
+    
+    .tableCard div:last-child p:last-child{
+        border-bottom-right-radius: 15px;
+    }
+    
+    .tableCard div p{
+        padding: 0.5vmax;
+        border: 1px solid rgb(26, 208, 244);
+    }
+}
